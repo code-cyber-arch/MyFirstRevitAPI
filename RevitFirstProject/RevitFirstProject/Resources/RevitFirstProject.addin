@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Assembly>PathToYourDll\RevitFirstProject.dll</Assembly>
+    <ClientId>{YOUR-GUID-HERE}</ClientId>
+    <FullClassName>RevitFirstProject.Commands.FirstCommand</FullClassName>
+    <Text>First Command</Text>
+    <Description>Description of your command</Description>
+    <VendorId>YOUR_VENDOR_ID</VendorId>
+    <VendorDescription>Your Company</VendorDescription>
+  </AddIn>
+</RevitAddIns>
